@@ -17,7 +17,7 @@ compatibility_date = "2024-05-29"
 # - https://developers.cloudflare.com/workers/configuration/secrets/
  [vars]
  APP_NAME = "BeersKMM"
- REDIRECT_URL = "kmmbeers.gcaguilar.workers.dev"
+ REDIRECT_URL = "app://org.gcaguilar.kmmbeers"
  LOGIN_URL= "https://untappd.com/oauth/authenticate/?client_id=CLIENTID&response_type=code&redirect_url=REDIRECT_URL"
  AUTHORIZE_URL= "https://untappd.com/oauth/authorize/?client_id=CLIENTID&client_secret=CLIENTSECRET&response_type=code&redirect_url=REDIRECT_URL&code=CODE"
 
